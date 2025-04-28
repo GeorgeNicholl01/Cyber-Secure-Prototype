@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Secure | Contact</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header id="contact-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Cyber Secure</h1>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Modules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <img src="./img/menu.svg" alt="Menu" />
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1><span class="highlight-soft-glow">Contact Us</span></h1>
+      </div>
+    </div>
+  </header>
+
+  <section id="contact-us" class="container">
+    <form action="#">
+      <h1>Get In Touch</h1>
+
+      <div class="inputsWrapper">
+        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Phone Number" />
+        <input type="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+        <button type="submit" class="primary-btn">SEND NOW</button>
+      </div>
+    </form>
+
+    <div class="addresss">
+      <h1>Talk to Us</h1>
+
+      <div class="detailsWrapper">
+        <div class="detail">
+          <img src="./img/email.png" alt="Email Icon" />
+          <div class="text">
+            <h6>EMAIL</h6>
+            <p>50095130@belfastmet.ac.uk</p>
+          </div>
+        </div>
+        <div class="detail">
+          <img src="./img/phone.png" alt="Phone Icon" />
+          <div class="text">
+            <h6>PHONE NUMBER</h6>
+            <p>+44 1234567890</p>
+          </div>
+        </div>
+        <div class="detail">
+          <img src="./img/location.png" alt="Location Icon" />
+          <div class="text">
+            <h6>ADDRESS</h6>
+            <p>
+              Belfast Metropolitan College, Montgomery Road.<br />
+              Belfast, BT6 9JD
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="followUsWrapper">
+        <h3>Follow Us</h3>
+        <ul class="socialLink">
+          <li><a href="#"><img src="./img/facebook.png" alt="Facebook" /></a></li>
+          <li><a href="#"><img src="./img/linkedin.png" alt="LinkedIn" /></a></li>
+          <li><a href="#"><img src="./img/video.png" alt="YouTube" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <ul class="footerlinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Modules</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo">Cyber Secure</h1>
+    <p>George Nicholl 50095130</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Secure | Burnout</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header id="services-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Cyber Secure</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Modules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <img src="./img/menu.svg" alt="Menu" />
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1><span class="highlight-soft-glow">Burnout</span></h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="module-content">
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2x7r2UKUnF4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="pdf-wrapper">
+      <a href="pdf/7. Burnout.pdf" target="_blank" class="pdf-link">📄 View Full Module</a>
+    </div>
+
+    <div class="quiz-wrapper">
+      <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=MnyPmMZA6E2bWJcs8sP4NeZWa5E2f-BCho3ppUgUlk9UODZRMllBTzgzN0pKTkg1RjhCVk1DSkFYMy4u" 
+        width="640" height="480" 
+        frameborder="0" 
+        marginwidth="0" 
+        marginheight="0" 
+        style="border: none; max-width:100%; max-height:100vh" 
+        allowfullscreen 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        msallowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="module-navigation">
+      <a href="GoodHabits.html" class="nav-button">Next Module: Good Habits →</a>
+    </div>
+  </main>
+
+  <footer class="container">
+    <ul class="footerlinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Modules</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo">Cyber Secure</h1>
+    <p>George Nicholl 50095130</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

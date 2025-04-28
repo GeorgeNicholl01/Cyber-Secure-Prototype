@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Secure | About</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header id="about-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Cyber Secure</h1>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Modules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <img src="./img/menu.svg" alt="Menu" />
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1><span class="highlight-soft-glow">About Us</span></h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="about-wrapper">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="./img/our-mission.jpg" alt="Cyber Secure Mission">
+      </div>
+
+      <div class="about-text">
+        <h1>OUR MISSION</h1>
+        <p>
+          At Cyber Secure, our mission is to empower organisations
+          with the knowledge and skills needed to combat cybersecurity threats.
+          We believe that human awareness is the first line of defense against cyber risks.
+        </p>
+        <p>
+          Through engaging video content, interactive learning, and practical quizzes, 
+          we equip employees with essential cybersecurity best practices.
+        </p>
+        <p>
+          Our goal is to foster a culture of security, reduce human-related vulnerabilities,
+          and help organisations stay resilient in an ever-evolving digital landscape.
+        </p>
+        <p>We wish you all the best with your Cybersecurity education.</p>
+        <p>The Cyber Secure Team</p>
+      </div>
+    </div>
+  </main>
+
+  <section id="talk-to-us">
+    <div class="talk-to-us-content">
+      <h1>TALK TO US</h1>
+      <p>Have any feedback? Please let us know!!</p>
+      <p>We are always looking to improve so that everyone can stay Cyber Secure.</p>
+      <a href="./contact.html" class="primary-btn">GET IN TOUCH</a>
+    </div>
+  </section>
+
+  <footer class="container">
+    <ul class="footerlinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Modules</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo">Cyber Secure</h1>
+    <p>George Nicholl 50095130</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

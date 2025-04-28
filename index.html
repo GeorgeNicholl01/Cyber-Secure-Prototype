@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Secure | Home</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header id="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Cyber Secure</h1>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Modules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <img src="./img/menu.svg" alt="Menu" />
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1><span class="highlight-soft-glow">Cyber Secure</span></h1>
+        <p><span class="highlight-soft-glow">Stay Alert</span></p>
+        <p><span class="highlight-soft-glow">Stay Safe</span></p>
+        <p><span class="highlight-soft-glow">Stay Cyber Secure</span></p>
+        <a href="./services.html" class="primary-btn">EXPLORE MODULES</a>
+      </div>        
+    </div>
+  </header>
+
+  <section id="modules" class="container">
+    <h1>Some of Our Modules</h1>
+    <div class="modules-container">
+      <div class="module">
+        <img src="img/humanrisk.png" alt="Human Risk">
+        <h3>Human Risk</h3>
+        <p>
+          Understand how human error impacts cybersecurity and
+          learn strategies to minimize risks within your organisation.
+        </p>
+      </div>
+      <div class="module">
+        <img src="img/phishing.png" alt="Phishing">
+        <h3>Phishing</h3>
+        <p>
+          Identify, prevent, and respond to phishing attacks
+          across email, phone, and social media.
+        </p>
+      </div>
+      <div class="module">
+        <img src="img/password-management.png" alt="Password Management">
+        <h3>Password Management</h3>
+        <p>
+          Learn how to create, store, and manage strong passwords
+          securely to protect sensitive data.
+        </p>
+      </div>
+    </div>
+  </section>
+    
+  <section id="about" class="container">
+    <div class="about-content">
+      <h1>About Us</h1>
+      <p>
+        At Cyber Secure, we empower organizations with the knowledge
+        to combat cyber threats. Through engaging content and interactive
+        learning, we equip employees with essential cybersecurity skills.
+        Our goal is to foster a security-focused culture, reduce human-related
+        risks, and build resilient organizations in an evolving digital world.
+      </p>
+    </div>
+    <div class="about-img">
+      <img src="img/our-mission.jpg" alt="Cyber Secure Mission" />
+    </div>
+  </section>
+
+  <section id="talk-to-us">
+    <div class="talk-to-us-content">
+      <h1>TALK TO US</h1>
+      <p>Have any feedback? Please let us know!!</p>
+      <p>We are always looking to improve so that everyone can stay Cyber Secure</p>
+      <a href="./contact.html" class="primary-btn">GET IN TOUCH</a>
+    </div>
+  </section>
+
+  <footer class="container">
+    <ul class="footerlinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Modules</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo">Cyber Secure</h1>
+    <p>George Nicholl 50095130</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

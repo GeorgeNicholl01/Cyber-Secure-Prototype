@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Secure | Modules</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header id="services-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Cyber Secure</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Modules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <img src="./img/menu.svg" alt="Menu" />
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1><span class="highlight-soft-glow">Modules</span></h1>
+        <a href="HumanRisk.html" class="primary-btn">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="services-section" class="container">
+    <div class="service">
+      <div class="content">
+        <h1>Human Risk</h1>
+        <p>Understand how human errors and behaviors can create cybersecurity vulnerabilities within an organization.</p>
+        <a href="HumanRisk.html" class="primary-btn">EXPLORE</a>
+      </div>
+      <img src="img/humanrisk.png" alt="Human Risk" />
+    </div>
+    
+    <div class="service">
+      <img src="img/phishing.png" alt="Phishing" />
+      <div class="content">
+        <h1>Phishing</h1>
+        <p>Learn to recognize and prevent deceptive emails and messages designed to steal sensitive information.</p>
+        <a href="Phishing.html" class="primary-btn">EXPLORE</a>
+      </div>
+    </div>
+    
+    <div class="service">
+      <div class="content">
+        <h1>Password Management</h1>
+        <p>Explore best practices for creating, storing, and managing strong passwords to protect accounts.</p>
+        <a href="PasswordManagement.html" class="primary-btn">EXPLORE</a>
+      </div>
+      <img src="img/password-management.png" alt="Password Management" />
+    </div>
+    
+    <div class="service">
+      <img src="img/cybersecurity-awareness.png" alt="Cybersecurity Awareness" />
+      <div class="content">
+        <h1>Cybersecurity Awareness</h1>
+        <p>Build a security-conscious mindset to identify and mitigate cyber threats effectively.</p>
+        <a href="CyberAwareness.html" class="primary-btn">EXPLORE</a>
+      </div>
+    </div>
+    
+    <div class="service">
+      <div class="content">
+        <h1>Unintentional Data Sharing</h1>
+        <p>Avoid accidental data exposure by understanding safe sharing practices and privacy settings.</p>
+        <a href="UnintentionalData.html" class="primary-btn">EXPLORE</a>
+      </div>
+      <img src="img/data-sharing.png" alt="Unintentional Data Sharing" />
+    </div>
+    
+    <div class="service">
+      <img src="img/software-update.png" alt="Neglecting Updates" />
+      <div class="content">
+        <h1>Neglecting Software Updates</h1>
+        <p>Learn why timely updates are crucial for closing security gaps and preventing attacks.</p>
+        <a href="NeglectingUpdates.html" class="primary-btn">EXPLORE</a>
+      </div>
+    </div>
+    
+    <div class="service">
+      <div class="content">
+        <h1>Burnout</h1>
+        <p>Recognize how fatigue impacts cybersecurity decisions and increases vulnerability to threats.</p>
+        <a href="Burnout.html" class="primary-btn">EXPLORE</a>
+      </div>
+      <img src="img/burnout.png" alt="Burnout" />
+    </div>
+    
+    <div class="service">
+      <img src="img/good-habits.png" alt="Good Habits" />
+      <div class="content">
+        <h1>Good Habits for Staying Cyber Secure</h1>
+        <p>Develop daily cybersecurity practices to enhance personal and organizational security.</p>
+        <a href="GoodHabits.html" class="primary-btn">EXPLORE</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <ul class="footerlinks">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Modules</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo">Cyber Secure</h1>
+    <p>George Nicholl 50095130</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
